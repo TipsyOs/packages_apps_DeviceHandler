@@ -1,6 +1,3 @@
-packages_apps_DeviceHandler
-
-
 This is Slim Roms Device Handler from Oppo-common just made into its own repo so other device can use it easier.
 
 Add the following to enable it for your device
