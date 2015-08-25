@@ -120,12 +120,12 @@ public class KeyHandler implements DeviceKeyHandler {
                         ActionConstants.ACTION_WAKE_DEVICE);
                 break;
             }
-            if (action == null || action != null && action.equals(ButtonsConstants.ACTION_NULL)) {
+            if (action == null || action != null && action.equals(ActionConstants.ACTION_NULL)) {
                 return;
             }
             if (action.equals(ActionConstants.ACTION_CAMERA)
                     || !action.startsWith("**")) {
-                Action.processAction(mContext, ButtonsConstants.ACTION_WAKE_DEVICE, false);
+                Action.processAction(mContext, ActionConstants.ACTION_WAKE_DEVICE, false);
             }
             Action.processAction(mContext, action, false);
         }
