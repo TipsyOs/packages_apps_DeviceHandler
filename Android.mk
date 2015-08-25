@@ -22,5 +22,6 @@ LOCAL_CERTIFICATE := platform
 LOCAL_PACKAGE_NAME := DeviceHandler
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
+LOCAL_DEX_PREOPT := false
 
 include $(BUILD_PACKAGE)
